@@ -24,7 +24,7 @@ class EtudiantServiceImplTest {
   EtudiantServiceImpl es;
 
 
-  Etudiant etudiant = new Etudiant("Fertani", "Youssef", 12345678, new Date(2000, 8, 23));
+  Etudiant etudiant = new Etudiant("Abecha", "AhmedRayen", 12345678, new Date(2000, 2, 26));
     List<Etudiant> etudiants = new ArrayList<>();
 
 
