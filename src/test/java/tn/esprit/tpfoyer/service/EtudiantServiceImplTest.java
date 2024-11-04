@@ -24,7 +24,7 @@ class EtudiantServiceImplTest {
   EtudiantServiceImpl es;
 
 
-  Etudiant etudiant = new Etudiant("Abecha", "AhmedRayen", 12345678, new Date(2000, 2, 26));
+  Etudiant etudiant = new Etudiant("Rezgui", "Aziz", 12345678, new Date(2000, 8, 23));
     List<Etudiant> etudiants = new ArrayList<>();
 
 
@@ -38,5 +38,4 @@ class EtudiantServiceImplTest {
         Etudiant etudiant1=es.retrieveEtudiant(0L);
         Assertions.assertNotNull(etudiant1);
     }
-
 }
